@@ -1,0 +1,53 @@
+.container {
+
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    .header {
+        display: flex;
+
+        justify-content: space-around;
+        color: aqua;
+        border: medium dashed red;
+
+
+        .search {
+            max-height: 5rem;
+            height: 3rem;
+            width: 800px;
+            margin: 2rem;
+            border: medium dashed green;
+        }
+
+        .account {
+            display: inline-flex;
+            margin: 2rem;
+
+            p {
+                padding-left: 1rem;
+
+            }
+        }
+    }
+
+    ul {
+        text-decoration: none;
+        display: inline-block;
+        justify-content: space-between;
+        border: medium dashed #9ab261;
+
+        li {
+
+            justify-content: left;
+            display: inline-block;
+            margin: 1rem 2rem 1rem 0;
+        }
+    }
+
+
+
+
+
+}
