@@ -17,7 +17,7 @@ const Card = ({ item }) => {
 
 
                     {item.tegs.map(tag => (
-                        <p key={tag.id}>{tag.teg_title}</p>
+                        <p key={tag.id}>{tag.teg_title }</p>
                     ))}
 
 
